@@ -1,15 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
-@import url(http://weloveiconfonts.com/api/?family=fontawesome);
-[class*="fontawesome-"]:before {
-  font-family: 'FontAwesome', sans-serif;
-}
 
-* {
-  box-sizing: border-box;
-}
-*:before, *:after {
-  box-sizing: border-box;
-}
+@media (min-width: 1281px) {
 
 body {
   background: rgb(255, 254, 254);
@@ -23,29 +14,26 @@ body {
   max-width: 60em;
   min-width: 45em;
   margin: 0 auto;
-  padding: 40px 0em;
-  margin-top: 20px;
   
+  margin-top: 20px;
 }
-
-
-
-mark {background-color: #7262ea;
-font-size:1.1em;color: #ffffff;}
-
-
 
 header {
   position: relative;
   background-color: #7262ea;
-  padding: 10em 0 8em;
-  z-index: 2;
+  padding: 10em 0 4em;
+  z-index: 0;
 }
+
 header h1 {
   font-size: 3em;
   text-transform: uppercase;
   text-align: center;
-  margin-bottom: 2em;
+}
+
+mark {
+  background-color: #7262ea;
+  font-size:1.1em;color: #ffffff;
 }
 
 h2 {
@@ -53,184 +41,551 @@ h2 {
   text-transform: uppercase;
   color: #222;
   text-align: center;
-  
 }
-
 
 h3 {
   font-size: 1.4em;
   text-transform: uppercase;
   color: #ffffff;
   text-align: center;
-  
- 
 }
 
-
-#shapka {
-
+#titlesite {
   padding-left: 40px;
   padding-right: 40px;
 }
 
-#about {
-  
+.button1 {
+  text-align:center; 
+  padding: 50px;
+}
+
+.button1act {
+  cursor: pointer; 
+  font-size:24px;  
+  padding: 24px 24px; 
+  text-decoration: none; 
+  color:#ffffff; 
+  background-color:#524bac; 
+  border-radius:60px; 
+  border: 2px solid #524bac;
+}
+
+.button1act:hover {
+  background-color:#6ea9ff;
+  color:#ffffff;
+  border: 2px solid #6ea9ff;
+}
+
+#aboutagency {
   background-color: #ffffff;
-  padding: 5em 0;
+  padding-top: 5em;
+  padding-bottom: 4em;
   padding-left: 40px;
   padding-right: 40px;
-
   
 }
-#about p {
-  line-height: 2em;
+
+#aboutagency p {
   font-size: 1.4em;
-  margin: 0;
-  
   color: #222;
-  
-}
-
-#usluga1 {
-  padding: 2em 2em;
-  background-color: #f5f5f5;
-  
-  color: #222;
-}
-
-#usluga1 p {
   line-height: 2em;
-  font-size: 1.2em;
-  margin-top: 50px;
-  
-  color: #222;
-  
-}
-
-
-#usluga2 {
-  padding: 2em 2em;
-  background-color: #fffff;
-  
-  color: #222;
-}
-
-#usluga2 p {
-  line-height: 2em;
-  font-size: 1.2em;
-  margin-top: 50px;
-  
-  color: #222;
-  
-}
-
-
-#usluga3 {
-  padding: 2em 2em;
-  background-color: #f5f5f5;
-  
-  color: #222;
-}
-
-#usluga3 p {
-  line-height: 2em;
-  font-size: 1.2em;
-  margin-top: 50px;
-  
-  color: #222;
-  
-}
-
-
-#usluga4 {
-  padding: 2em 2em;
-  background-color: #ffffff;
-  
-  color: #222;
-}
-
-#usluga4 p {
-  line-height: 2em;
-  font-size: 1.2em;
-  margin-top: 50px;
-  
-  color: #222;
-  
 }
 
 #services {
-  padding: 2em 2em;
   background-color: #7262ea;
-  
-  
+  padding: 2em 1em;
+  margin-top: 20px;
 }
-
-.hcolor {color: #ffffff;}
 
 #services p {
+  font-size: 1.4em;
+  margin: 20px;
   line-height: 2em;
-  font-size: 1.2em;
-  margin-top: 50px;
-  
-  color: #ffffff;
-  
+  margin-top: 70px;
 }
 
+.hcolor {
+  margin-top: 70px;
+  color: #ffffff;
+}
 
-#footer {
+#serviceone {
+  padding: 2em 2em;
+  background-color: #f5f5f5; 
+  color: #222;
+}
+
+#serviceone p {
+  font-size: 1.2em;
+  margin-top: 50px;
+  color: #222;
+  line-height: 2em;
+}
+
+#servicetwo {
+  padding: 2em 2em;
+  background-color: #ffffff; 
+  color: #222;
+}
+
+#servicetwo p {
+  font-size: 1.2em;
+  margin-top: 50px;
+  color: #222;
+  line-height: 2em;
+}
+
+#servicethree {
+  padding: 2em 2em;
+  background-color: #f5f5f5; 
+  color: #222;
+}
+
+#servicethree p {
+  font-size: 1.2em;
+  margin-top: 50px;
+  color: #222;
+  line-height: 2em;
+}
+
+#servicefour {
+  padding: 2em 2em;
+  background-color: #ffffff; 
+  color: #222;
+}
+
+#servicefour p {
+  font-size: 1.2em;
+  margin-top: 50px;
+  color: #222;
+  line-height: 2em;
+}
+
+#contact {
   padding: 2em 2em;
   background-color: #7262ea;
-  
   color: #222;
 }
 
-#footer p {
+#contact p {
+  font-size: 1.6em;
   line-height: 2em;
-  font-size: 1.2em;
-  margin-top: 50px;
-  
   color: #222;
+}
+
+.button2 {
+  text-align:center; 
+  padding: 50px;
+}
+
+.button2act {
+  cursor: pointer; 
+  font-size: 1.1em;  
+  padding: 20px 20px; 
+  text-decoration: none; 
+  color:#ffffff; 
+  background-color:#7262ea; 
+  border-radius:60px; 
+  border: 2px solid #7262ea;
+}
+
+.button2act:hover {
+  background-color:#6ea9ff;
+  color:#ffffff;
+  border: 2px solid #6ea9ff;
+}
+
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  body {
+    background: rgb(255, 254, 254);
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #FFF;
+  }
+  
+  .container {
+    max-width: 60em;
+    min-width: 45em;
+    margin: 0 auto;
+    
+    margin-top: 20px;
+  }
+  
+  header {
+    position: relative;
+    background-color: #7262ea;
+    padding: 10em 0 4em;
+    z-index: 0;
+  }
+  
+  header h1 {
+    font-size: 3em;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  mark {
+    background-color: #7262ea;
+    font-size:1.1em;color: #ffffff;
+  }
+  
+  h2 {
+    font-size: 1.6em;
+    text-transform: uppercase;
+    color: #222;
+    text-align: center;
+  }
+  
+  h3 {
+    font-size: 1.4em;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  #titlesite {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  
+  .button1 {
+    text-align:center; 
+    padding: 50px;
+  }
+  
+  .button1act {
+    cursor: pointer; 
+    font-size:24px;  
+    padding: 24px 24px; 
+    text-decoration: none; 
+    color:#ffffff; 
+    background-color:#524bac; 
+    border-radius:60px; 
+    border: 2px solid #524bac;
+  }
+  
+  .button1act:hover {
+    background-color:#6ea9ff;
+    color:#ffffff;
+    border: 2px solid #6ea9ff;
+  }
+  
+  #aboutagency {
+    background-color: #ffffff;
+    padding-top: 5em;
+    padding-bottom: 4em;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+  }
+  
+  #aboutagency p {
+    font-size: 1.4em;
+    color: #222;
+    line-height: 2em;
+  }
+  
+  #services {
+    background-color: #7262ea;
+    padding: 2em 1em;
+    margin-top: 20px;
+  }
+  
+  #services p {
+    font-size: 1.4em;
+    margin: 20px;
+    line-height: 2em;
+    margin-top: 70px;
+  }
+  
+  .hcolor {
+    margin-top: 70px;
+    color: #ffffff;
+  }
+  
+  #serviceone {
+    padding: 2em 2em;
+    background-color: #f5f5f5; 
+    color: #222;
+  }
+  
+  #serviceone p {
+    font-size: 1.2em;
+    margin-top: 50px;
+    color: #222;
+    line-height: 2em;
+  }
+  
+  #servicetwo {
+    padding: 2em 2em;
+    background-color: #ffffff; 
+    color: #222;
+  }
+  
+  #servicetwo p {
+    font-size: 1.2em;
+    margin-top: 50px;
+    color: #222;
+    line-height: 2em;
+  }
+  
+  #servicethree {
+    padding: 2em 2em;
+    background-color: #f5f5f5; 
+    color: #222;
+  }
+  
+  #servicethree p {
+    font-size: 1.2em;
+    margin-top: 50px;
+    color: #222;
+    line-height: 2em;
+  }
+  
+  #servicefour {
+    padding: 2em 2em;
+    background-color: #ffffff; 
+    color: #222;
+  }
+  
+  #servicefour p {
+    font-size: 1.2em;
+    margin-top: 50px;
+    color: #222;
+    line-height: 2em;
+  }
+  
+  #contact {
+    padding: 2em 2em;
+    background-color: #7262ea;
+    color: #222;
+  }
+  
+  #contact p {
+    font-size: 1.6em;
+    line-height: 2em;
+    color: #222;
+  }
+  
+  .button2 {
+    text-align:center; 
+    padding: 50px;
+  }
+  
+  .button2act {
+    cursor: pointer; 
+    font-size: 1.1em;  
+    padding: 20px 20px; 
+    text-decoration: none; 
+    color:#ffffff; 
+    background-color:#7262ea; 
+    border-radius:60px; 
+    border: 2px solid #7262ea;
+  }
+  
+  .button2act:hover {
+    background-color:#6ea9ff;
+    color:#ffffff;
+    border: 2px solid #6ea9ff;
+  }
+  
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  body {
+    background: rgb(255, 254, 254);
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #FFF;
+    line-height: 4em;
+  }
+  
+  .container {
+    max-width: 60em;
+    min-width: 45em;
+    margin: 0 auto;
+    
+    margin-top: 20px;
+  }
+  
+  header {
+    position: relative;
+    background-color: #7262ea;
+    padding: 10em 0 4em;
+    z-index: 0;
+  }
+  
+  header h1 {
+    font-size: 3em;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  mark {
+    background-color: #7262ea;
+    font-size:1.1em;color: #ffffff;
+  }
+  
+  h2 {
+    font-size: 1.6em;
+    text-transform: uppercase;
+    color: #222;
+    text-align: center;
+  }
+  
+  h3 {
+    font-size: 1.4em;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  #titlesite {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  
+  .button1 {
+    text-align:center; 
+    padding: 50px;
+  }
+  
+  .button1act {
+    cursor: pointer; 
+    font-size:24px;  
+    padding: 24px 24px; 
+    text-decoration: none; 
+    color:#ffffff; 
+    background-color:#524bac; 
+    border-radius:60px; 
+    border: 2px solid #524bac;
+  }
+  
+  .button1act:hover {
+    background-color:#6ea9ff;
+    color:#ffffff;
+    border: 2px solid #6ea9ff;
+  }
+  
+  #aboutagency {
+    background-color: #ffffff;
+    padding-top: 5em;
+    padding-bottom: 4em;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+  }
+  
+  #aboutagency p {
+    font-size: 1.4em;
+    color: #222;
+  }
+  
+  #services {
+    background-color: #7262ea;
+    padding: 2em 1em;
+    margin-top: 20px;  
+  }
+  
+  #services p {
+    font-size: 1.4em;
+    margin: 20px;
+    margin-top: 70px;
+  }
+  
+  .hcolor {
+    margin-top: 70px;
+    color: #ffffff;
+  }
+  
+  #serviceone {
+    padding: 2em 2em;
+    background-color: #f5f5f5; 
+    color: #222;
+  }
+  
+  #serviceone p {
+    font-size: 1.2em;
+    margin-top: 50px;
+    color: #222;
+  }
+  
+  #servicetwo {
+    padding: 2em 2em;
+    background-color: #ffffff; 
+    color: #222;
+  }
+  
+  #servicetwo p {
+    font-size: 1.2em;
+    margin-top: 50px;
+    color: #222;
+  }
+  
+  #servicethree {
+    padding: 2em 2em;
+    background-color: #f5f5f5; 
+    color: #222;
+  }
+  
+  #servicethree p {
+    font-size: 1.2em;
+    margin-top: 50px;
+    color: #222;
+  }
+  
+  #servicefour {
+    padding: 2em 2em;
+    background-color: #ffffff; 
+    color: #222;
+  }
+  
+  #servicefour p {
+    font-size: 1.2em;
+    margin-top: 50px;
+    color: #222;
+  }
+  
+  #contact {
+    padding: 2em 2em;
+    background-color: #7262ea;
+    color: #222;
+  }
+  
+  #contact p {
+    font-size: 1.6em;
+    color: #222;
+  }
+  
+  .button2 {
+    text-align:center; 
+    padding: 50px;
+  }
+  
+  .button2act {
+    cursor: pointer; 
+    font-size: 1.1em;  
+    padding: 20px 20px;  
+    text-decoration: none; 
+    color:#ffffff; 
+    background-color:#7262ea; 
+    border-radius:60px; 
+    border: 2px solid #7262ea;
+  }
+  
+  .button2act:hover {
+    background-color:#6ea9ff;
+    color:#ffffff;
+    border: 2px solid #6ea9ff;
+  }
   
 }
 
 
-
-
-
-
-
-@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
-
-
-
-
-
-.bruno {
-  text-align: center;
-  font-weight: 700;
-	
-}
-
-.down {
-  margin-top: 30px;
-}
-
-
-
-
-
-
-.cwd{text-align:center;}
-
-.cwda{cursor: pointer; font-size:24px;  padding: 24px 24px; text-decoration: none; color:#ffffff; background-color:#7262ea; border-radius:60px; border: 2px solid #7262ea;}
-
-.cwda:hover{background-color:#6ea9ff;color:#ffffff;border: 2px solid #6ea9ff;}
-
-
-
-.cwd2{text-align:center;}
-
-.cwda2{cursor: pointer; font-size:24px;  padding: 24px 24px; text-decoration: none; color:#ffffff; background-color:#524bac; border-radius:60px; border: 2px solid #524bac;}
-
-.cwda2:hover{background-color:#6ea9ff;color:#ffffff;border: 2px solid #6ea9ff;}
